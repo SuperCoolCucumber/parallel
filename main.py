@@ -26,3 +26,4 @@ for process in processes:
 
 
 results = [out_queue.get() for _ in range(out_queue.qsize())]
+print(results)
